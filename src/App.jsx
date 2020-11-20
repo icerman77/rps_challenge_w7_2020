@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import { Container } from 'semantic-ui-react';
+
 
 class App extends Component {
   render() {
     return (
-      <div>
-        This is my first RPS app
-      </div>
+      <Container id='viewcontainer'>
+        <text>Rock Paper Scissors</text><br></br>
+        <button id='buttonplay'>Play</button>
+      </Container>
     )
   }
 }
